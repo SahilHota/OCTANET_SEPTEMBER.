@@ -1,0 +1,83 @@
+
+       
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('tdl.jpg');
+    background-size: cover;
+   background-repeat: no-repeat;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #FF6F61, #FEBD97, #FEC89A, #FDCB80, #FDBB58);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    <hr />
+
+
+}
+
+.task-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    <hr />
+}
+
+.new-task {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+#labelInput, #deadlineInput, #categoryInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+}
+
+#categoryInput {
+    flex: 2;
+}
+
+#addTaskBtn {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.task {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.task:hover {
+    transform: translateY(-5px);
+}
+
+.task h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.task p {
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
