@@ -1,0 +1,1 @@
+Welcome to this repository! This project combines a captivating landing page for Octanet, a feature-rich to-do list app, and a functional Flipkart clone. Explore and learn how to create diverse web components for different purposes. Feel free to open issues or submit pull requests.
